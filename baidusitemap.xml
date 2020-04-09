@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://yoursite.com/2020/04/08/test/</loc>
+    <loc>https://wzio.github.io/2020/04/08/test/</loc>
     <lastmod>2020-04-08</lastmod>
   </url>  <url>
-    <loc>http://yoursite.com/2020/04/08/hello-world/</loc>
+    <loc>https://wzio.github.io/2020/04/08/hello-world/</loc>
     <lastmod>2020-04-08</lastmod>
   </url>
 </urlset>
