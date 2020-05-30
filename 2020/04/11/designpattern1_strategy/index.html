@@ -22,17 +22,17 @@
 
   <meta name="description" content="这里记录Head First系列设计模式的读书笔记，结合了自己的一些理解，整理出一些文章 需求设计鸭子模拟游戏SimDuck，一边游泳一边呱呱叫 继承做法123456789101112131415161718192021222324252627282930import Foundationclass Duck &amp;#123;    func quack() &amp;#123;        print(&quot;">
 <meta property="og:type" content="article">
-<meta property="og:title" content="设计模式(1)-策略模式">
-<meta property="og:url" content="https://wzio.github.io/2020/04/11/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-1-%E7%AD%96%E7%95%A5%E6%A8%A1%E5%BC%8F/index.html">
+<meta property="og:title" content="设计模式1-策略模式">
+<meta property="og:url" content="https://wzio.github.io/2020/04/11/designpattern1_strategy/index.html">
 <meta property="og:site_name" content="Memory Stack">
 <meta property="og:description" content="这里记录Head First系列设计模式的读书笔记，结合了自己的一些理解，整理出一些文章 需求设计鸭子模拟游戏SimDuck，一边游泳一边呱呱叫 继承做法123456789101112131415161718192021222324252627282930import Foundationclass Duck &amp;#123;    func quack() &amp;#123;        print(&quot;">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2020-04-11T02:47:13.000Z">
-<meta property="article:modified_time" content="2020-04-11T04:32:03.278Z">
+<meta property="article:modified_time" content="2020-04-19T06:31:38.174Z">
 <meta property="article:author" content="wangkun">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="https://wzio.github.io/2020/04/11/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-1-%E7%AD%96%E7%95%A5%E6%A8%A1%E5%BC%8F/">
+<link rel="canonical" href="https://wzio.github.io/2020/04/11/designpattern1_strategy/">
 
 
 <script id="page-configurations">
@@ -45,7 +45,7 @@
   };
 </script>
 
-  <title>设计模式(1)-策略模式 | Memory Stack</title>
+  <title>设计模式1-策略模式 | Memory Stack</title>
   
 
 
@@ -151,7 +151,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="https://wzio.github.io/2020/04/11/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-1-%E7%AD%96%E7%95%A5%E6%A8%A1%E5%BC%8F/">
+    <link itemprop="mainEntityOfPage" href="https://wzio.github.io/2020/04/11/designpattern1_strategy/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -164,7 +164,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          设计模式(1)-策略模式
+          设计模式1-策略模式
         </h1>
 
         <div class="post-meta">
@@ -173,10 +173,16 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">Posted on</span>
-              
 
-              <time title="Created: 2020-04-11 10:47:13 / Modified: 12:32:03" itemprop="dateCreated datePublished" datetime="2020-04-11T10:47:13+08:00">2020-04-11</time>
+              <time title="Created: 2020-04-11 10:47:13" itemprop="dateCreated datePublished" datetime="2020-04-11T10:47:13+08:00">2020-04-11</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2020-04-19 14:31:38" itemprop="dateModified" datetime="2020-04-19T14:31:38+08:00">2020-04-19</time>
+              </span>
 
           
 
@@ -235,6 +241,25 @@
     
     
     
+        
+
+  <div class="followme">
+    <p>Welcome to my other publishing channels</p>
+
+    <div class="social-list">
+
+        <div class="social-item">
+          <a target="_blank" class="social-link" href="https://twitter.com/stardustmm">
+            <span class="icon">
+              <i class="fab fa-twitter"></i>
+            </span>
+
+            <span class="label">Twitter</span>
+          </a>
+        </div>
+    </div>
+  </div>
+
 
       <footer class="post-footer">
 
@@ -325,9 +350,6 @@
       </span>
       <span class="links-of-author-item">
         <a href="mailto:wangkun2012@gmail.com" title="E-Mail → mailto:wangkun2012@gmail.com" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
-      </span>
-      <span class="links-of-author-item">
-        <a href="https://twitter.com/kunwangmm" title="Twitter → https:&#x2F;&#x2F;twitter.com&#x2F;kunwangmm" rel="noopener" target="_blank"><i class="fab fa-twitter fa-fw"></i>Twitter</a>
       </span>
   </div>
 
